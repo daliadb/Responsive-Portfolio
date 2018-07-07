@@ -11,8 +11,8 @@ body {
 	height: 100vh;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
-  	line-height: 32px;
-  	color: #777777;
+  line-height: 32px;
+  color: #777777;
 	background: url("../images/bendy.png");
 }
 
@@ -151,22 +151,58 @@ nav a {
   .content {
     padding: 120px;
   }
+
   .main {
     max-width: 420px;
+  }
+
+  .prof-img {
+    width: 100%;
+    margin-bottom: 10px;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .content,
+  .sidebar {
+    max-width: 100%;
+    overflow: auto;
+  }
 
-  .header {
-    position: static;
+  .sidebar {
+    margin-bottom: 30px;
+  }
+
+  .prof-img {
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 640px) {
+  .header {
+    position: static;
+    margin-bottom: 20px
+  }
 
+  nav {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  nav a {
+    width: 30%;
+  }
+
+  #logo,
+  .prof-img {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
 }
 
 
