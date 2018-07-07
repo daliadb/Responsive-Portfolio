@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Basic Portfolio</title>
+
+	<!--CSS Reset-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--CSS Link-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+
+	<!-- Website Header containing a box with my name & a nav section with 'About', 'Portfolio', & 'Contact' -->
+	<header class="header">
+		<div class="container">
+			<a href="index.html" id="logo">Thea Long</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+<!-- Main Page Body -->
+<div class="content">
+
+	<!-- 'Contact' Container -->
+	<section class="main">
+		<h1>Contact</h1>
+		<form id="contact-form">
+	        <ul>
+	          <li>
+	            <label for="name">Name</label>
+	            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+	          </li>
+	          <li>
+	            <label for="email">Email</label>
+	            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+	          </li>
+	          <li>
+	            <label for="message">Message</label>
+	            <textarea id="message" name="message" required="required"></textarea>
+	          </li>
+	        </ul>
+	        <input type="submit">
+	      </form>
+	</section>
+
+
+
+	<!-- 'Contact Me' Container -->
+	<!-- Git Hub, LinkedIn, StackFlow Icons & links -->
+	<section class="sidebar">
+		<div class="socials">
+			<h2>Connect with Me</h2>
+			<hr>
+			<a href="https://github.com/daliadb"><img src="./assets/images/GitHub.png" class="social" alt="GitHub" width="100"/></a>
+	        <a href="https://www.linkedin.com/in/thea-long-33bb254b/"><img src="./assets/images/LinkedIn.png" class="social" alt="LinkedIn" width="100"/></a>
+	        <a href="https://stackoverflow.com/users/story/9180022"><img src="./assets/images/Stackoverflow.png" class="social" alt="Stack Overflow" width="100"/></a>
+	        <a href="https://twitter.com/Blackdaliagg"><img src="./assets/images/Twitter.png" class="social" alt="Twitter" width="100"/></a>
+		</div>
+    </section>
+
+</div>
+
+	<!-- Sticky Footer Container -->
+	<footer class="footer">
+		Copyright &copy; 2018 Thea Long
+	</footer>
+
+</body>
+</html>
